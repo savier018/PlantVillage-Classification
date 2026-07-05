@@ -1,0 +1,32 @@
+# Entorno virtual
+.venv/
+
+# Dataset
+dataset/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cachés de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Modelos entrenados (si los generas)
+*.pt
+*.pth
+*.onnx
+
+# Logs
+*.log
